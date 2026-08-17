@@ -87,7 +87,7 @@ export default function QuizScoreboardPRD() {
   };
 
  return (
-    <div className="w-screen h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: "url('/bg-cinda.png')" }}>
+    <div className="w-screen min-h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: "url('/bg-cinda.png')" }}>
       {/* Header Logos */}
       <div className="absolute top-6 left-6 flex items-center gap-3 bg-white/40 backdrop-blur-md p-2 px-3 rounded-xl border border-white/50 shadow-sm">
   <img src="/idk.png" className="w-12 h-12 object-contain" />
