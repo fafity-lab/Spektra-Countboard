@@ -170,7 +170,7 @@ export default function QuizScoreboardPRD() {
         {/* HEADER */}
         <header className="text-center mb-6 pt-16">
           <h1 className="text-4xl font-bold">LOMBA CEPAT TEPAT</h1>
-          <h2 className="text-2xl font-semibold">SPEKTRA 2026</h2>
+          <h2 className="text-2xl font-semibold">CINDA 2026</h2>
         </header>
 
         <TimerSection />
