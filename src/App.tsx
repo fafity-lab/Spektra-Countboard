@@ -88,59 +88,7 @@ export default function QuizScoreboardPRD() {
 
  return (
     <div className="w-screen min-h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: "url('/bg-cinda.png')" }}>
-      {/* Header Logos */}
-      <div className="absolute top-6 left-6 flex items-center gap-3 bg-white/40 backdrop-blur-md p-2 px-3 rounded-xl border border-white/50 shadow-sm">
-  <img src="/idk.png" className="w-12 h-12 object-contain" />
-</div>
-      <img
-        src="/idk.png"
-        className="absolute top-1/2 right-6 -translate-y-1/2 translate-x-32 w-48 opacity-60 -rotate-12 pointer-events-none"
-      />
-
-      <img
-        src="/coconut-removebg-preview.png"
-        className="absolute bottom-0 right-0 w-44 opacity-70 rotate-8 translate-y-24 translate-x-12 pointer-events-none"
-      />
-
-      <img
-        src="/lei.png"
-        className="absolute bottom-0 left-0 w-56 opacity-70 rotate-50 -scale-y-100 translate-y-28 -translate-x-24 pointer-events-none"
-      />
-
-      <img
-        src="/tiki-removebg-preview.png"
-        className="absolute bottom-12 right-0 w-29 opacity-70 rotate-4 translate-x-12 pointer-events-none drop-shadow-md"
-      />
-
-      <img
-        src="flower-removebg-preview.png"
-        className="absolute top-1/2 left-48 w-12 opacity-80 rotate-12 z-10 translate-y-8 translate-x-4 pointer-events-none drop-shadow-md"
-      />
-
-      <img
-        src="flower2.png"
-        className="absolute bottom-16 right-48 w-16 opacity-70 rotate-12 translate-y-6 translate-x-8 pointer-events-none drop-shadow-md"
-      />
-
-      <img
-        src="flower2.png"
-        className="absolute bottom-16 right-48 w-16 opacity-70 rotate-12 translate-y-6 translate-x-20 -scale-x-100 pointer-events-none drop-shadow-md"
-      />
-
-      <img
-        src="leaf1.png"
-        className="absolute bottom-16 left-48 w-36 opacity-90 -rotate-90 translate-y-12 -scale-x-100 -translate-x-16 pointer-events-none"
-      />
-
-      <img
-        src="/surf-removebg-preview.png"
-        className="absolute bottom-4 left-4 w-29 opacity-90 -rotate-6 pointer-events-none"
-      />
-
-      <img
-        src="/crabs-removebg-preview.png"
-        className="absolute top-1/2 left-6 -translate-y-1/2 w-28 opacity-70 -rotate-12 pointer-events-none drop-shadow-md"
-      />
+      
 
       <div className="w-full max-w-5xl relative rounded-3xl shadow-xl p-6 border border-yellow-300 overflow-hidden bg-yellow-50">
 
