@@ -86,26 +86,12 @@ export default function QuizScoreboardPRD() {
     });
   };
 
-  return (
-  <div className="w-screen h-screen flex flex-col items-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/bg-cinda.png')" }}> 
-        className="absolute top-0 right-0 w-48 opacity-70 rotate-2 pointer-events-none"
-      /
-
-      <img
-        src="/palm.png"
-        className="absolute top-10 right-0 w-36 opacity-70 rotate-2 pointer-events-none"
-      />
-
-      <img
-        src="/palm.png"
-        className="absolute top-0 left-0 w-48 opacity-70 -scale-x-100 -rotate-2 pointer-events-none"
-      />
-
-      <img
-        src="/palm.png"
-        className="absolute top-10 left-0 w-36 opacity-70 -scale-x-100 -rotate-2 pointer-events-none"
-      />
-
+ return (
+    <div className="w-screen h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden" style={{ backgroundImage: "url('/bg-cinda.png')" }}>
+      {/* Header Logos */}
+      <div className="absolute top-6 left-6 flex items-center gap-3 bg-white/40 backdrop-blur-md p-2 px-3 rounded-xl border border-white/50 shadow-sm">
+  <img src="/idk.png" className="w-12 h-12 object-contain" />
+</div>
       <img
         src="/idk.png"
         className="absolute top-1/2 right-6 -translate-y-1/2 translate-x-32 w-48 opacity-60 -rotate-12 pointer-events-none"
