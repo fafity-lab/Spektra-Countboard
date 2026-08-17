@@ -87,11 +87,10 @@ export default function QuizScoreboardPRD() {
   };
 
   return (
-    <div className="w-screen h-screen p-6 flex flex-col items-center bg-yellow-100 text-gray-800 overflow-hidden max-w-full relative">
-      <img
+    <div className="w-screen h-screen flex flex-col items-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/bg-cinda.png')" }}>
         src="/palm.png"
         className="absolute top-0 right-0 w-48 opacity-70 rotate-2 pointer-events-none"
-      />
+      /
 
       <img
         src="/palm.png"
@@ -170,7 +169,7 @@ export default function QuizScoreboardPRD() {
         {/* HEADER */}
         <header className="text-center mb-6 pt-16">
           <h1 className="text-4xl font-bold">LOMBA CEPAT TEPAT</h1>
-          <h2 className="text-2xl font-semibold">SPEKTRA 2026</h2>
+          <h2 className="text-2xl font-semibold">CINDA 2026</h2>
         </header>
 
         <TimerSection />
