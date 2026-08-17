@@ -87,7 +87,7 @@ export default function QuizScoreboardPRD() {
   };
 
   return (
-    <div className="w-screen h-screen p-6 flex flex-col items-center bg-yellow-100 text-gray-800 overflow-hidden max-w-full relative">
+  <div className="w-screen h-screen flex flex-col items-center bg-cover bg-center" style={{ backgroundImage: "url('/bg-cinda.png')" }}>
       <img
         src="/palm.png"
         className="absolute top-0 right-0 w-48 opacity-70 rotate-2 pointer-events-none"
