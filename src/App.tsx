@@ -271,7 +271,7 @@ function TeamCard({
             setTeam({ name: e.target.value });
             localStorage.setItem(`team-name-${index}`, e.target.value);
           }}
-          className="text-center text-xl font-bold bg-amber-100/60 rounded-xl px-3 py-2 w-full text-amber-900"
+          className="text-center text-xl font-bold bg-yellow-100/80 rounded-xl px-3 py-2 w-full text-yellow-900"
         />
 
         {/* SCORE */}
