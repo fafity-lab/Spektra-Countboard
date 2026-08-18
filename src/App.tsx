@@ -93,7 +93,7 @@ export default function QuizScoreboardPRD() {
       <div className="w-full max-w-5xl relative rounded-3xl shadow-xl p-6 border border-yellow-300 overflow-hidden bg-yellow-50">
  
         {/* LOGO */}
-       <div className="absolute top-4 left-4 flex items-center gap-2 bg-amber-100/80 backdrop-blur-sm px-3 py-2 rounded-xl border border-amber-300/60 shadow-sm z-10">
+       <div className="absolute top-4 left-4 flex items-center gap-2 bg-amber-100/80 backdrop-blur-sm px-3 py-2 rounded-xl border border-amber-300/60 shadow-sm z-10"> 
           <img src="/LOGO SMANDA.png" className="h-10 w-10 object-contain" />
           <img src="/LOGO OSIS SMAN 2 BOGOR.png" className="h-10 w-10 object-contain" />
           <img src="/LOGO AE'66.png" className="h-10 w-10 object-contain" />
