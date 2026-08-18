@@ -262,7 +262,7 @@ function TeamCard({
   };
 
   return (
-    <div className="relative rounded-2xl p-5 flex flex-col items-center border-2 border-amber-500 bg-amber-200/90 shadow-md">
+    <div className="relative rounded-2xl p-5 flex flex-col items-center border-2 border-yellow-200/60 bg-yellow-50/50 backdrop-blur-md shadow-lg">
 
       {/* NAME */}
       <input
@@ -271,9 +271,7 @@ function TeamCard({
     setTeam({ name: e.target.value });
     localStorage.setItem(`team-name-${index}`, e.target.value);
   }}
-  className="text-center text-xl font-bold bg-amber-100/80 rounded-xl px-3 py-2 w-full text-amber-950 focus:outline-none focus:ring-2 focus:ring-amber-400"
-/>
-
+ className="text-center text-xl font-bold bg-yellow-100/80 rounded-xl px-3 py-2 w-full text-yellow-900 focus:outline-none"
       {/* SCORE */}
       <div
         onMouseEnter={() => {
