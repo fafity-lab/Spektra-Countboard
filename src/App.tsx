@@ -262,18 +262,17 @@ function TeamCard({
   };
 
   return (
-    <div className="relative rounded-2xl p-5 flex flex-col items-center border-2 border-yellow-300 bg-yellow-50 shadow-md">
+    <div className="relative rounded-2xl p-5 flex flex-col items-center border-2 border-amber-300 bg-amber-50/90 backdrop-blur-md shadow-md">
 
       {/* NAME */}
       <input
-        value={team.name}
-        onChange={(e) => {
-          setTeam({ name: e.target.value });
-
-          localStorage.setItem(`team-name-${index}`, e.target.value);
-        }}
-        className="text-center text-xl font-bold bg-yellow-100 rounded-xl px-3 py-2 w-full mb-4 border"
-      />
+  value={team.name}
+  onChange={(e) => {
+    setTeam({ name: e.target.value });
+    localStorage.setItem(`team-name-${index}`, e.target.value);
+  }}
+  className="text-center text-xl font-bold bg-amber-100/80 rounded-xl px-3 py-2 w-full text-amber-950 focus:outline-none focus:ring-2 focus:ring-amber-400"
+/>
 
       {/* SCORE */}
       <div
