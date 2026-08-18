@@ -266,14 +266,16 @@ function TeamCard({
 
       {/* NAME */}
       <input
-  value={team.name}
-  onChange={(e) => {
-    setTeam({ name: e.target.value });
-    localStorage.setItem(`team-name-${index}`, e.target.value);
-  }}
- className="text-center text-xl font-bold bg-yellow-100/80 rounded-xl px-3 py-2 w-full text-yellow-900 focus:outline-none"
-      {/* SCORE */}
-      <div
+          value={team.name}
+          onChange={(e) => {
+            setTeam({ name: e.target.value });
+            localStorage.setItem(`team-name-${index}`, e.target.value);
+          }}
+          className="text-center text-xl font-bold bg-yellow-100/80 rounded-xl px-3 py-2 w-full text-yellow-900"
+        />
+
+        {/* SCORE */}
+        <div
         onMouseEnter={() => {
           timeoutRef.current = setTimeout(() => {
             setHoverReset(true);
@@ -281,7 +283,6 @@ function TeamCard({
         }}
         onMouseLeave={() => {
           clearTimeout(timeoutRef.current);
-
           setHoverReset(false);
         }}
         className="text-6xl font-black mb-4 relative"
