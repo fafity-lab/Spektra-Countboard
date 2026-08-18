@@ -262,7 +262,7 @@ function TeamCard({
   };
 
   return (
-    <div className="relative rounded-2xl p-5 flex flex-col items-center border-2 border-amber-300 bg-amber-50/90 backdrop-blur-md shadow-md">
+    <div className="relative rounded-2xl p-5 flex flex-col items-center border-2 border-amber-500 bg-amber-200/90 shadow-md">
 
       {/* NAME */}
       <input
